@@ -9,4 +9,5 @@ import (
 func main() {
 	port := constants.Port
 	fmt.Println("port: ", port)
+	fmt.Println(constants.ConnectionString)
 }
